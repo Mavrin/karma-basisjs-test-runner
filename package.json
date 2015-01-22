@@ -1,0 +1,14 @@
+{
+  "name": "karma-basisjs-test-runner",
+  "version": "0.0.0",
+  "description": "karma adapter for basisjs-test-runner",
+  "main": "lib/index.js",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "karma"
+  ],
+  "author": "konstantin krivlenia",
+  "license": "mit"
+}
