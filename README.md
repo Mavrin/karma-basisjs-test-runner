@@ -1,7 +1,9 @@
 #TODO
 * Забирать script.js через npm
 * Улучшить сообщения об ошибках
-* Правильно обрабатывать выполненые тесты сейчас ``` var tests =  new basis.data.dataset.Subset({
+* Правильно обрабатывать выполненые тесты сейчас 
+```js
+var tests =  new basis.data.dataset.Subset({
                                                                      ruleEvents: "stateChanged",
                                                                      rule: function(test) {
                                                                          return test.state == basis.data.STATE.READY;
@@ -21,12 +23,14 @@
                                                                          };
                                                                          tc.result(result);
                                                                      }
-                                                                 }); ```
+                                                                 }); 
+```
 * Избежать изменений в методах  script.js
     было `basis.path.resolve(basis.require("./j.js").baseURI || "", "res/2NM1dsdOx8Ioc7cT_94Adw.html");` стало `basis.path.resolve(basis.require("./j.js").baseURI || "", "2NM1dsdOx8Ioc7cT_94Adw.html");`
     Вопрос: Возможно frame указать при настройке karma?
 * Добавить return при или сделать как-то по другому
-  ```js function loadTests(data) {
+```js 
+function loadTests(data) {
         stop();
           testsToRun.set(extractTests(data));
         return testsToRun;
