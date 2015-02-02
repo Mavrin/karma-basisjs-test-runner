@@ -1,16 +1,22 @@
 {
   "name": "karma-yatra",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "karma adapter for yatra",
   "main": "lib/index.js",
   "scripts": {
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mavrin/karma-yatra.git"
+  },
   "keywords": [
     "karma",
+    "karma-plugin",
     "karma-adapter",
     "yatra"
   ],
   "author": "Konstantin Krivlenia",
+
   "license": "MIT",
   "dependencies": {
     "yatra": "~1.0.0"
