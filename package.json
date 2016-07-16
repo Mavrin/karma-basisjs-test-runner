@@ -19,6 +19,6 @@
 
   "license": "MIT",
   "dependencies": {
-    "yatra": "~1.0.0"
+    "yatra": "^1.0.0"
   }
 }
